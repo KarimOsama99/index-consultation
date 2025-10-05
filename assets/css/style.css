@@ -9003,6 +9003,23 @@ ul {
   color: var(--smartbiz-white);
 }
 
+.line-clamp-3,
+.line-clamp-4,
+.line-clamp-5 {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
+}
+.line-clamp-4 {
+  -webkit-line-clamp: 4;
+}
+.line-clamp-5 {
+  -webkit-line-clamp: 5;
+}
+
 /*--------------------------------------------------------------
 # Get Estimate
 --------------------------------------------------------------*/
