@@ -1,0 +1,125 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.owl-carousel,
+.main-menu-two__call-number {
+    direction: ltr;
+}
+
+.main-slider-two__btn-box {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.main-menu-two__logo {
+    margin-right: 0;
+    margin-left: 125px;
+}
+.main-header-two__contact-list li+li,
+.main-menu .main-menu__list>li+li{
+    margin-left: 0;
+    margin-right: 35px;
+}
+.main-header-two__contact-list li:before {
+    left: unset;
+    right: -22px;
+}
+.main-header-two__contact-list li .text,
+.main-menu-two__call-content {
+    margin-left: unset;
+    margin-right: 10px;
+}
+.main-menu-two__call,
+.main-menu-two__search-box {
+    margin-right: unset;
+    margin-left: 40px;
+}
+
+.main-menu-two__search:after {
+    right: unset;
+    left: -20px;
+}
+
+.thm-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    width: max-content;
+}
+.thm-btn .icon-right-arrow {
+    transform: rotate(180deg);
+}
+.main-slider-two__btn.thm-btn {
+    flex-direction: row-reverse;
+}
+
+.about-two__list li .text {
+    margin-left: unset;
+    margin-right: 11px;
+}
+
+.counter-one__count {
+    margin-left: unset;
+    margin-right: 23px;
+}
+
+.faq-one__left {
+    margin-right: -208px;
+    margin-left: 45px;
+}
+.testimonial-two__right {
+    margin-right: unset;
+    margin-left: -250px;
+}
+
+.footer-widget-two__services {
+    margin-right: 33px;
+    margin-left: -10px;
+}
+.footer-widget-two__services ul {
+    padding-right: 0;
+}
+.footer-widget-two__contact {
+    margin-left: unset;
+    margin-right: 83px;
+}
+.footer-widget-two__contact ul {
+    padding-right: 0;
+}
+.about-two__content-inner ul,
+.about-two__content-list,
+.footer-widget__services-list,
+.footer-widget__contact-list {
+    padding-right: 0;
+}
+.about-two__list li .icon {
+    transform: rotate(180deg);
+}
+
+.about-two__img {
+    padding-left: unset;
+    padding-right: 145px;
+}
+
+.about-two__content-list-text {
+    margin-left: unset;
+    margin-right: 15px;
+}
+
+.scroll-to-top {
+    right: unset;
+    left: 50px;
+}
+
+.services-one__content {
+    margin-left: unset;
+    margin-right: 30px;
+}
+.services-one__learn-more>span {
+    margin-left: unset;
+    margin-right: 8px;
+    transform: rotate(180deg);
+}

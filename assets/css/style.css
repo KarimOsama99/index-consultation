@@ -3004,7 +3004,7 @@ ul {
   display: flex;
   border-radius: 10px;
   border: 2px solid rgba(var(--smartbiz-white-rgb), .10);
-  background: rgba(var(--smartbiz-black-rgb), .80);
+  background: var(--smartbiz-white);
   border-radius: 50px;
   margin-bottom: 30px;
   padding: 48px 50px 47px;
@@ -3056,13 +3056,13 @@ ul {
 }
 
 .services-one__title a {
-  color: var(--smartbiz-white);
+  color: var(--smartbiz-dark);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .services-one__title a:hover {
-  color: var(--smartbiz-primary);
+  color: var(--smartbiz-black);
 }
 
 .services-one__learn-more {
@@ -3079,7 +3079,7 @@ ul {
 }
 
 .services-one__learn-more:hover {
-  color: var(--smartbiz-primary);
+  color: var(--smartbiz-base);
 }
 
 .services-one__learn-more>span {
@@ -7133,11 +7133,15 @@ ul {
 
 
 .page-header__inner {
-  position: relative;
-  display: block;
-  text-align: center;
-  padding: 300px 0 160px;
-  z-index: 15;
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding: 100px 0;
+    z-index: 15;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 450px;
 }
 
 .thm-breadcrumb {
@@ -9233,9 +9237,10 @@ ul {
   position: relative;
   display: block;
   background-color: rgba(var(--smartbiz-white-rgb), .95);
-  padding: 52px 50px 49px;
+  padding: 42px 40px 20px;
   border-radius: 50px;
   margin-bottom: 30px;
+  border: 5px solid var(--smartbiz-base);
 }
 
 .services-three__title {
@@ -9246,7 +9251,7 @@ ul {
 }
 
 .services-three__title a {
-  color: var(--smartbiz-black);
+  /* color: var(--smartbiz-black); */
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -9258,13 +9263,16 @@ ul {
 .services-three__text {
   position: relative;
   display: block;
-  margin-top: 20px;
-  color: var(--smartbiz-white);
-  border-bottom: 1px solid var(--smartbiz-bdr-color);
+  /* margin-top: 15px; */
+  color: var(--smartbiz-black);
+  line-height: 1.7;
+  /* border-bottom: 1px solid var(--smartbiz-bdr-color); */
+  /* border: 2px solid var(--smartbiz-base); */
   padding: 30px 30px 25px;
   margin-bottom: 30px;
-  background-color: rgb(var(--smartbiz-base-rgb), .99);
+  /* background-color: var(--smartbiz-base); */
   border-radius: 10px;
+  font-size: 18px;
 }
 
 .services-three__explore-more {
