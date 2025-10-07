@@ -78,6 +78,15 @@ body {
     left: -184px;
 }
 
+.services-two__btn {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+}
+.services-two__btn span {
+    transform: rotate(180deg);
+}
+
 .thm-btn {
     display: flex;
     justify-content: flex-start;
