@@ -9,6 +9,8 @@ body {
 .owl-carousel,
 .main-menu-two__call-number,
 .footer-widget-two__contact-location,
+.footer-widget__emergency-call a,
+.footer-widget__contact-location,
 .mobile-nav__contact li a {
     direction: ltr;
 }
@@ -176,6 +178,17 @@ body {
 @media (max-width: 767px) {
     .main-slider-two__btn-box {
         justify-content: center;
+    }
+    .main-menu-two__logo {
+        margin-left: 90px;
+    }
+    .main-menu-two__btn {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 360px) {
+    .main-menu-two__logo {
+        margin-left: 70px;
     }
 }
 @media (min-width: 768px) {
