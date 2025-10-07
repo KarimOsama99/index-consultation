@@ -2,9 +2,14 @@ body {
     direction: rtl;
     text-align: right;
 }
+.main-slider-two__bg {
+    transform: scaleX(-1) !important;
+}
 
 .owl-carousel,
-.main-menu-two__call-number {
+.main-menu-two__call-number,
+.footer-widget-two__contact-location,
+.mobile-nav__contact li a {
     direction: ltr;
 }
 
@@ -41,6 +46,37 @@ body {
     right: unset;
     left: -20px;
 }
+.mobile-nav__close {
+    right: unset;
+    left: 20px;
+}
+
+.mobile-nav__contact li>i {
+    margin-right: unset;
+    margin-left: 10px;
+}
+
+.section-title__tagline::before {
+    right: unset;
+    left: -43px;
+}
+
+.main-slider-two .owl-theme .owl-dots {
+    right: unset;
+    left: 0;
+}
+.main-slider-two .owl-theme .owl-dots .owl-dot span:before {
+    right: unset;
+    left: 40px
+}
+.main-slider-two__shape-1 {
+    right: unset;
+    left: -202px;
+}
+.main-slider-two__shape-2 {
+    right: unset;
+    left: -184px;
+}
 
 .thm-btn {
     display: flex;
@@ -64,44 +100,47 @@ body {
 .counter-one__count {
     margin-left: unset;
     margin-right: 23px;
+    padding-right: 23px;
+}
+.counter-one__count::before {
+    left: unset;
+    right: 0;
 }
 
-.faq-one__left {
-    margin-right: -208px;
-    margin-left: 45px;
-}
 .testimonial-two__right {
     margin-right: unset;
     margin-left: -250px;
 }
 
-.footer-widget-two__services {
+.services-two .about-two__content-btn {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.footer-widget-two__services,
+.footer-widget-two__contact {
     margin-right: 33px;
     margin-left: -10px;
 }
 .footer-widget-two__services ul {
     padding-right: 0;
 }
-.footer-widget-two__contact {
+/* .footer-widget-two__contact {
     margin-left: unset;
     margin-right: 83px;
-}
+} */
 .footer-widget-two__contact ul {
     padding-right: 0;
 }
 .about-two__content-inner ul,
 .about-two__content-list,
 .footer-widget__services-list,
-.footer-widget__contact-list {
+.footer-widget__contact-list,
+.mobile-nav__contact {
     padding-right: 0;
 }
 .about-two__list li .icon {
     transform: rotate(180deg);
-}
-
-.about-two__img {
-    padding-left: unset;
-    padding-right: 145px;
 }
 
 .about-two__content-list-text {
@@ -114,7 +153,8 @@ body {
     left: 50px;
 }
 
-.services-one__content {
+.services-one__content,
+.mobile-nav__social a+a {
     margin-left: unset;
     margin-right: 30px;
 }
@@ -122,4 +162,20 @@ body {
     margin-left: unset;
     margin-right: 8px;
     transform: rotate(180deg);
+}
+
+@media (max-width: 767px) {
+    .main-slider-two__btn-box {
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) {
+    .faq-one__left {
+        margin-right: -208px;
+        margin-left: 45px;
+    }
+    .about-two__img {
+        padding-left: unset;
+        padding-right: 145px;
+    }
 }
