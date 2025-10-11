@@ -1078,8 +1078,10 @@
       var strickyScrollPos = 100;
       if ($(window).scrollTop() > strickyScrollPos) {
         $(".scroll-to-top").fadeIn(500);
+        $(".whatsapp").css("bottom", "125px");
       } else if ($(this).scrollTop() <= strickyScrollPos) {
         $(".scroll-to-top").fadeOut(500);
+        $(".whatsapp").css("bottom", "50px");
       }
     }
 

@@ -159,9 +159,19 @@ body {
     margin-right: 15px;
 }
 
-.scroll-to-top {
+.scroll-to-top,
+.whatsapp {
     right: unset;
     left: 50px;
+}
+
+.search-popup__content .thm-btn {
+    right: unset;
+    left: -1px;
+}
+.search-popup__content form input[type="search"], .search-popup__content form input[type="text"] {
+    padding-left: unset;
+    padding-right: 30px;
 }
 
 .services-one__content,

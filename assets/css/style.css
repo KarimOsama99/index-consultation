@@ -578,6 +578,7 @@ ul {
   display: inline-block;
   width: 60px;
   height: 60px;
+  border-radius: 50%;
   background: var(--smartbiz-black);
   position: fixed;
   bottom: 50px;
@@ -587,7 +588,6 @@ ul {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   display: none;
-  border-radius: 0;
 }
 
 .scroll-to-top i {
@@ -606,6 +606,26 @@ ul {
   color: var(--smartbiz-white);
 }
 
+.whatsapp {
+  position: fixed;
+  background-color: #4fce5d;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  right: 50px;
+  bottom: 50px;
+  z-index: 999;
+  transition: all 0.2s ease-in-out;
+}
+.whatsapp:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
 
 
 /*--------------------------------------------------------------
@@ -3609,7 +3629,7 @@ ul {
   left: -10px;
   right: -10px;
   bottom: -10px;
-  background-color: rgba(var(--smartbiz-base-rgb), .70);
+  background-color: var(--smartbiz-base);
   border-radius: 50%;
   z-index: -1;
 }
