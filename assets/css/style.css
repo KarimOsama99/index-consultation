@@ -627,6 +627,13 @@ ul {
   transform: scale(1.1);
 }
 
+@media (max-width: 767px) {
+  .scroll-to-top,
+  .whatsapp {
+    right: 25px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Navigations One

@@ -195,6 +195,11 @@ body {
     .main-menu-two__btn {
         padding: 10px 20px;
     }
+    .scroll-to-top,
+    .whatsapp {
+        right: unset;
+        left: 25px;
+    }
 }
 @media (max-width: 360px) {
     .main-menu-two__logo {
