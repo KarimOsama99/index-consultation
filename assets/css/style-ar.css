@@ -12,7 +12,8 @@ body {
 .footer-widget__emergency-call a,
 .footer-widget__contact-location,
 .mobile-nav__contact li a,
-.main-header-two__contact-list li .text p {
+.main-header-two__contact-list li .text p,
+.contact-page__contact-list li>p {
     direction: ltr;
 }
 
