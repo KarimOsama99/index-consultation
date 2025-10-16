@@ -4903,7 +4903,7 @@ ul {
 }
 
 .about-two .row {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .about-two__content {
